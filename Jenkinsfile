@@ -1,7 +1,7 @@
 def version, mvnCmd = "mvn -s templates/cicd-settings-nexus3.xml"
       pipeline
       {
-       
+       agent 
         tools
         {
             maven 'M7'
